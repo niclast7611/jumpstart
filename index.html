@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNL Treasure hunt</title>
+    <link rel="icon" href="https://freesvg.org/img/mystica_Pirate-ship.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=My+Soul&family=Raleway:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mySoul">
+        <div class='bounce'>
+            <h1 id="top-page">Treasure Hunt</h1>
+        </div>
+        <!-- <h2>Welcome to our Treasure Hunt</h2> -->
+
+        <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/05/12/df.jpg" height="200px"
+            alt="treasure map photo">
+
+        <div class='rules'>
+            <h2>Treasure Hunt Game Rules</h3>
+                <ul>
+                    <li>Click the boxes to reveal what's on the map</li>
+                    <li>If you click on the bomb, you lose 💣</li>
+                    <li>If you click on the treasure, you win 💰</li>
+                </ul>
+        </div>
+        <br />
+        <table id="game">
+            <tr>
+                <td id='treasure0' onclick="treasure(0)">?</td>
+                <td id='treasure1' onclick="treasure(1)">?</td>
+                <td id='treasure2' onclick="treasure(2)">?</td>
+            </tr>
+            <tr>
+                <td id='treasure3' onclick="treasure(3)">?</td>
+                <td id='treasure4' onclick="treasure(4)">?</td>
+                <td id='treasure5' onclick="treasure(5)">?</td>
+            </tr>
+            <tr>
+                <td id='treasure6' onclick="treasure(6)">?</td>
+                <td id='treasure7' onclick="treasure(7)">?</td>
+                <td id='treasure8' onclick="treasure(8)">?</td>
+            </tr>
+        </table>
+        <br />
+        <button id="button" class="button" type="button" onclick="location.reload()">Restart Game</button>
+        <br>
+        <br>
+    </div>
+    <footer>
+        &copy TNL Treasure Hunt /
+        <a id='link' href="https://hobbylark.com/party-games/Best-Scavenger-Hunt-Clue-Ideas" target="_blank">Treasure
+            Hunt
+            link</a>
+        <a id='link' href="#top-page">Back to Top of Page</a>
+
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+
+
+</html>
